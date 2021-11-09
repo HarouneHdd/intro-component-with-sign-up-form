@@ -1,0 +1,31 @@
+/* # General */
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+html {
+    font-size: 16px;
+}
+
+/* # Constants */
+/* ## Colors */
+:root {
+    /* ### Primary */
+    --red: #ff7a7a;
+    --green: #38cc8c;
+    /* ### Accent */
+    --blue: #6055a5;
+    /* ### Neutral */
+    --dark-blue: #3e3c49;
+    --grayish-blue: #b9b6d3;
+}
+
+/* Layout and Design */
+@media only screen and (min-width: 375px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+    
+}
