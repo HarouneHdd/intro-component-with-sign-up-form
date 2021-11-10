@@ -113,6 +113,12 @@ strong {
         border: 1px solid var(--grayish-blue);
         margin-bottom: 6px;
     }
+    .form-container input:focus {
+        outline-color: #3e3c49aa;
+    }
+    .form-container input:required:invalid {
+        outline-color: var(--red);
+    }
     .form-container button {
         background-color: var(--green);
         border: none;
@@ -124,6 +130,11 @@ strong {
         font-weight: 500;
         box-shadow: 0 5px #2cbd7e, 0 -2px #2cbd7e;
         margin-bottom: 5px;
+    }
+    .form-container button:hover {
+        cursor: pointer;
+        background-color: #53dda1;
+        box-shadow: 0 5px #33d690, 0 -2px #35d690;
     }
     .form-container small {
         color: var(--grayish-blue);
