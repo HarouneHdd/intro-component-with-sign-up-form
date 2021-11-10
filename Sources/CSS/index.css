@@ -24,8 +24,22 @@ html {
     font-size: 16px;
     font-family: "Poppins", Helvetica, sans-serif;
 }
+body {
+    background-image: url("../Images/bg-intro-mobile.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--red);
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
 p {
     font-size: 1rem;
+}
+strong {
+    font-weight: bold;
 }
 
 /* # Constants */
