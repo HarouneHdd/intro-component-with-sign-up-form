@@ -111,6 +111,30 @@ strong {
         padding: 0 20px 0 20px;
         border-radius: 7px;
         border: 1px solid var(--grayish-blue);
+        margin-bottom: 5px;
+    }
+    .form-container button {
+        background-color: var(--green);
+        border: none;
+        width: 85%;
+        height: 70px;
+        color: white;
+        border-radius: 7px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        box-shadow: 0 5px #2cbd7e, 0 -2px #2cbd7e;
+        margin-bottom: 5px;
+    }
+    .form-container small {
+        color: var(--grayish-blue);
+        text-align: center;
+        width: 70%;
+        font-size: 0.875rem;
+        line-height: 1.65rem;
+    }
+    .form-container small strong {
+        color: var(--red);
+        font-weight: 700;
     }
 }
 
