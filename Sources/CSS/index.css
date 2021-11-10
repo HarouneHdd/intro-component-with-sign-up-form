@@ -44,6 +44,10 @@ strong {
     font-weight: bold;
 }
 
+form input {
+    align-self: center;
+}
+
 /* # Constants */
 /* ## Colors */
 :root {
@@ -58,12 +62,20 @@ strong {
 }
 
 /* Layout and Design */
+.flex-container-center-ai {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
 @media only screen and (min-width: 375px) {
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
+    .main-container {
+
+    }
+
+    .form-container {
+        
     }
 }
 
