@@ -116,9 +116,7 @@ strong {
     .form-container input:focus {
         outline-color: #3e3c49aa;
     }
-    .form-container input:required:invalid {
-        outline-color: var(--red);
-    }
+
     .form-container button {
         background-color: var(--green);
         border: none;
@@ -149,7 +147,7 @@ strong {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
     body {
         background-image: url("../Images/bg-intro-desktop.png");
     }

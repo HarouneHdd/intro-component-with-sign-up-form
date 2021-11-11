@@ -22,12 +22,27 @@
                 <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
             </div>
             <div class="form-container">
-                <form class="flex-container-center-ai" target="_blank">
-                    <input type="text" id="firstName" name="firstName" placeholder="First Name" maxlength="50" required><br>
-                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" maxlength="50" required><br>
-                    <input type="email" id="email" name="email" placeholder="Email Address" pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" 
-                    maxlength="256" required><br>
-                    <input type="password" id="password" name="password" placeholder="Password" maxlength="128" required><br>
+                <form id="form" class="flex-container-center-ai">
+                    <div class="custom-input">
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name" maxlength="50" required>
+                        <img src="Resources/Images/icon-error.svg" alt=""/>
+                        <small>First Name cannot be empty</small>
+                    </div>
+                    <div class="custom-input">
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name" maxlength="50" required>
+                        <img src="Resources/Images/icon-error.svg" alt=""/>
+                        <small>Last Name cannot be empty</small>
+                    </div>
+                    <div class="custom-input">
+                        <input type="email" id="email" name="email" placeholder="Email Address" maxlength="256" required>
+                        <img src="Resources/Images/icon-error.svg" alt=""/>
+                        <small>Looks like this is not an email</small>
+                    </div>
+                    <div class="custom-input">
+                        <input type="password" id="password" name="password" placeholder="Password" maxlength="30" required>
+                        <img src="Resources/Images/icon-error.svg" alt=""/>
+                        <small>Password cannot be empty</small>
+                    </div>
                     <button type="submit" value="submit">CLAIM YOUR FREE TRIAL</button><br>
                     <small>By clicking the button, you are agreeing to our <strong>Terms and Services</strong></small>
                 </form>
