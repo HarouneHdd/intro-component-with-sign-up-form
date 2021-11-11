@@ -154,9 +154,8 @@ strong {
 
     .main-container {
         flex-wrap: wrap;
-        width: 1440px;
-        height: 1200px;
-        
+        width: 1200px;
+        height: 900px;
     }
 
     #intro-container {
@@ -195,13 +194,31 @@ strong {
         height: 500px;
         padding-top: 35px;
     }
-    .form-container input {
+
+    .custom-input {
+        display: flex;
+        position: relative;
+        width: 85%;
+        padding-bottom: 17px;
+    }
+    .custom-input input {
         height: 60px;
-        width: 75%;
+        width: 100%;
         font-size: 1.1rem;
         padding: 0 30px 0 30px;
-        margin-bottom: 6px;
     }
+    .custom-input img {
+        position: absolute;
+        right: 20px;
+        top: 18px;
+    }
+    .custom-input small {
+        position: absolute;
+        
+        bottom: 0;
+        color: var(--red);
+    }
+
     .form-container button {
         width: 85%;
         height: 60px;
