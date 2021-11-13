@@ -71,4 +71,7 @@ const triggerCorrectInputBehavior = input => {
     if (errorMessage.style.visibility === "visible") {
         errorMessage.style.visibility = "hidden";
     }
+
+    // Submitting the form
+    customInput.parentElement.submit();
 }
