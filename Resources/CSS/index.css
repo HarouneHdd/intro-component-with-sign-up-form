@@ -6,6 +6,12 @@
 }
 @font-face {
     font-family: "Poppins";
+    src: url(../Fonts/Poppins/Poppins-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Poppins";
     src: url(../Fonts/Poppins/Poppins-Medium.ttf) format("truetype");
     font-weight: 500;
 }
@@ -209,14 +215,17 @@ strong {
     }
     .custom-input img {
         position: absolute;
+        visibility: hidden;
         right: 20px;
         top: 18px;
     }
     .custom-input small {
         position: absolute;
-        
+        visibility: hidden;
+        left: 155px;
         bottom: 0;
         color: var(--red);
+        font-style: italic;
     }
 
     .form-container button {
