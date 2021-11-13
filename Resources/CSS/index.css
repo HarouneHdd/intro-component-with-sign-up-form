@@ -222,31 +222,18 @@ strong {
         padding-top: 35px;
     }
 
-    .custom-input {
-        display: flex;
-        position: relative;
-        width: 85%;
-        padding-bottom: 17px;
-    }
     .custom-input input {
         height: 60px;
-        width: 100%;
         font-size: 1.1rem;
         padding: 0 30px 0 30px;
     }
     .custom-input img {
-        position: absolute;
-        visibility: hidden;
         right: 20px;
         top: 18px;
     }
     .custom-input small {
-        position: absolute;
-        visibility: hidden;
         left: 155px;
         bottom: 0;
-        color: var(--red);
-        font-style: italic;
     }
 
     .form-container button {

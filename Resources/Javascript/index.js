@@ -18,31 +18,40 @@ const checkInputs = () => {
     const emailVal = email.value;
     const passwordVal = password.value;
 
-    let errorInput;
+    let correctInputs = 0;
 
     if (fnameVal === '' || fnameVal == null) {
         triggerError(fname);
     }
     else {
         triggerCorrectInputBehavior(fname);
+        correctInputs++;
     }
     if (lnameVal === '' || lnameVal == null) {
         triggerError(lname);
     }
     else {
         triggerCorrectInputBehavior(lname);
+        correctInputs++;
     }
     if (!checkEmailValidity(emailVal)) {
         triggerError(email);
     }
     else {
         triggerCorrectInputBehavior(email);
+        correctInputs++;
     }
     if (passwordVal === '' || passwordVal == null) { 
         triggerError(password);
     }
     else {
         triggerCorrectInputBehavior(password);
+        correctInputs++;
+    }
+
+    if (correctInputs === 4) {
+        // Submit the form
+        form.submit();
     }
 }
 
@@ -71,7 +80,4 @@ const triggerCorrectInputBehavior = input => {
     if (errorMessage.style.visibility === "visible") {
         errorMessage.style.visibility = "hidden";
     }
-
-    // Submitting the form
-    customInput.parentElement.submit();
 }
