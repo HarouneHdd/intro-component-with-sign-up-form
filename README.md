@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop version](./Screenshots/desktop-version.jpg)
-![mobile version 1](./Screenshots/mobile-version-1.jpg)
-![mobile version 2](./Screenshots/mobile-version-2.jpg)
+![desktop version](Screenshots\mobile-version-1.JPG)
+![mobile version 1](Screenshots\mobile-version-1.JPG)
+![mobile version 2](Screenshots\mobile-version-2.JPG)
 
 ### Links
 
