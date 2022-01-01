@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://harounehdd.github.io/intro-component-with-sign-up-form/](https://harounehdd.github.io/intro-component-with-sign-up-form/)
+- Live Site URL: [https://harounehadid.github.io/intro-component-with-sign-up-form/](https://harounehadid.github.io/intro-component-with-sign-up-form/)
 
 ## My process
 
